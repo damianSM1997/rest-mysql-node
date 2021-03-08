@@ -1,6 +1,6 @@
 import {Sequelize} from 'sequelize';
 
-const db = new Sequelize('museumReservation', 'root', 'nwsdk24-7' , {
+const db = new Sequelize('museumReservation', 'root', 'su-password' , {
     host: 'localhost',
     dialect: 'mysql',
     //logging: false,
